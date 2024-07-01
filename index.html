@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/darkmood.css">
+    <title>DodoList</title>
+</head <body>
+<header>
+    <button class="btnAdd">Add</button>
+    <div id="table">
+        <div id="centeralign">
+    <h1 class=>To do List </h1>
+    </div>
+    </div>
+    <button id="btnClear">DELETE</button>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video" src="./assets/imgs/fond.mov">
+        </video>
+</header>
+<main>
+    <div class="container">
+        <form action="">
+            <div id="ToDoListCreator">
+                <label for="title"></label>
+                <input type="text" placeholder="Enter la tâche" id="title">
+
+                <label for="description"></label>
+                <textarea id="description" placeholder="Description de la tâche"></textarea>
+                <button type="button" id="button" class="btnPlus" onclick="createArticle()">+</button>
+            </div>
+        </form>
+        <div id="ToDoListContainer" class="scroller">
+        </div>
+    </div>
+</main>
+<footer>
+    <div>
+        <div class="fin">
+            <img src="./assets/imgs/copyright.png" alt="copyright">
+            <p> Marina Tacite</p>
+        </div>
+
+    </div>
+</footer>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
